@@ -79,6 +79,11 @@ input{
     border: none;
 }
 
+/*for javascript*/
+.error{
+    color: red;
+}
+
 /*main-content*/
 
 /*footer*/

@@ -74,51 +74,63 @@
 
             <div class="col-2">Female Ski Jackets</div>
             <div class="col-2">
-              <select name="" id="size">
+              <select name="" id="femaleSize">
                 <option value="small">Small</option>
                 <option value="medium">Medium</option>
                 <option value="large">Large</option>
               </select>
             </div>
             <div class="col-2">
-              <select name="color" id="color">
+              <select name="color" id="femaleColor">
                 <option value="black">Black</option>
                 <option value="white">White</option>
                 <option value="gray">Gray</option>
               </select>
             </div>
-            <div class="col-2"><span>220</span></div>
+            <div class="col-2"><span id="femalePrice">150.95</span></div>
             <div class="col-2">
-              <input type="text" placeholder="input" />
+              <select name="quantity" id="femaleQuantity">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
             </div>
-            <div class="col-2"></div>
+            <div class="col-2" id="femaleTotal"></div>
 
             <div class="col-2">Male Ski Jackets</div>
             <div class="col-2">
-              <select name="size" id="size">
+              <select name="size" id="maleSize">
                 <option value="small">Small</option>
                 <option value="medium">Medium</option>
                 <option value="large">Large</option>
               </select>
             </div>
             <div class="col-2">
-              <select name="color" id="color">
+              <select name="color" id="maleColor">
                 <option value="black">Black</option>
                 <option value="white">White</option>
                 <option value="gray">Gray</option>
               </select>
             </div>
-            <div class="col-2"><span>220</span></div>
+            <div class="col-2"><span id="malePrice">180.95</span></div>
             <div class="col-2">
-              <input type="text" placeholder="input" />
+              <select name="quantity" id="maleQuantity">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
             </div>
-            <div class="col-2"></div>
+            <div class="col-2" id="maleTotal"></div>
 
             <div class="col-8">Click to confirm and process your order:</div>
             <div class="col-2 output-btn">
               <button class="total-btn" total-price>Total Price</button>
             </div>
-            <div class="col-2"></div>
+            <div class="col-2" output></div>
           </div>
         </div>
       </div>
