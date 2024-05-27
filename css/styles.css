@@ -88,8 +88,8 @@ input{
 
 /*footer*/
 footer{
-    margin-top: .5em;
-    border-top: 2px gray;
+    margin: .5em 1em;
+    border-top: 2px solid gray;
     padding-top: .7em;
     clear: left;
 }
