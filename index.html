@@ -17,11 +17,11 @@
     <title>SWEGGA Website</title>
   </head>
   <body>
-    <div id="all-content">
+    <div id="all-content" class="d-flex">
       <div id="sidebar">
         <img src="images/swegga.jpg" alt="swegga-img" />
       </div>
-      <div id="main-content">
+      <div id="main-content" >
         <div>
           <img src="images/delivery.gif" alt="free-delivery" />
           <nav class="navbar navbar-expand-lg navbar-light">
@@ -72,7 +72,7 @@
             <div class="col-2">Quantity</div>
             <div class="col-2">Total</div>
 
-            <div class="col-2">Female Ski Jackets</div>
+            <div class="col-2"><a href="">Female Ski Jackets</a></div>
             <div class="col-2">
               <select name="" id="femaleSize">
                 <option value="small">Small</option>
@@ -82,9 +82,9 @@
             </div>
             <div class="col-2">
               <select name="color" id="femaleColor">
-                <option value="black">Black</option>
-                <option value="white">White</option>
-                <option value="gray">Gray</option>
+                <option value="black">Red</option>
+                <option value="white">Pink</option>
+                <option value="gray">Black</option>
               </select>
             </div>
             <div class="col-2"><span id="femalePrice">150.95</span></div>
@@ -99,7 +99,7 @@
             </div>
             <div class="col-2" id="femaleTotal"></div>
 
-            <div class="col-2">Male Ski Jackets</div>
+            <div class="col-2"><a href="">Male Ski Jackets</a></div>
             <div class="col-2">
               <select name="size" id="maleSize">
                 <option value="small">Small</option>
@@ -109,9 +109,9 @@
             </div>
             <div class="col-2">
               <select name="color" id="maleColor">
-                <option value="black">Black</option>
-                <option value="white">White</option>
-                <option value="gray">Gray</option>
+                <option value="black">Red</option>
+                <option value="white">Blue</option>
+                <option value="gray">White</option>
               </select>
             </div>
             <div class="col-2"><span id="malePrice">180.95</span></div>
@@ -126,8 +126,9 @@
             </div>
             <div class="col-2" id="maleTotal"></div>
 
-            <div class="col-8">Click to confirm and process your order:</div>
-            <div class="col-2 output-btn">
+            
+            <div class="col-8 d-flex align-items-center">Click to confirm and process your order:</div>
+            <div class="col-2 d-flex align-items-center">
               <button class="total-btn" total-price>Total Price</button>
             </div>
             <div class="col-2" output></div>
@@ -146,5 +147,5 @@
     <!-- main script -->
     <script src="script/script.js"></script>
   </body>
-  <footer>2014 Swegga Fashion - Examination number</footer>
+  <footer><p>&copy;2014 Swegga Fashion - Examination number</p></footer>
 </html>
